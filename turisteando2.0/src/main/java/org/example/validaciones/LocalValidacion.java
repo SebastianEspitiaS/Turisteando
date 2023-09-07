@@ -22,7 +22,6 @@ public class LocalValidacion {
         } else {
             return true;
         }
-
     }
 
 }
