@@ -12,7 +12,9 @@ public enum Mensaje {
     FORMATO_FECHA_INVALIDO("La fecha tiene que estar en formato 'dd/MM/yyyy'"),
     INCONSISTENCIA_FECHA("La fecha de inicio no puede ser mayor a la fecha de fin"),
     COSTO_INVALIDO("El costo no puede ser menor a 0"),
-    NUMERO_RESERVAS_INVALIDA("Solo se aceptan 4 personas por reserva");
+    NUMERO_RESERVAS_INVALIDA("Solo se aceptan 4 personas por reserva"),
+    COSTO_PERSONA_INVALIDO("El valor no puede ser negativo"),
+    NOMBRE_REPRESENTANTE_INVALIDO("El nombre no puede tener menos de 10 caracteres");
     private String mensaje;
 
     Mensaje(String mensaje) {

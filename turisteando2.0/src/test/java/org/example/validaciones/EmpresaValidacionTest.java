@@ -6,13 +6,13 @@ import org.example.utilidades.Mensaje;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class LocalValidacionTest {
+public class EmpresaValidacionTest {
 
-    private LocalValidacion validacion;
+    private EmpresaValidacion validacion;
 
     @BeforeEach
     public void setUp() {
-        validacion = new LocalValidacion();
+        validacion = new EmpresaValidacion();
     }
 
     @Test

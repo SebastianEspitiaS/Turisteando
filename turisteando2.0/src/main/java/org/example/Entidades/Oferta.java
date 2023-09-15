@@ -13,7 +13,7 @@ public class Oferta {
     private LocalDate fechaInicial;
     private LocalDate fechaFinal;
     private Double costoPersona;
-    private Local local;
+    private Empresa local;
     protected Util util = new Util();
     protected OfertaValidacion validacion = new OfertaValidacion();
 
@@ -21,7 +21,7 @@ public class Oferta {
     }
 
     public Oferta(Integer id, String titulo, String descripcion, LocalDate fechaInicial,
-            LocalDate fechaFinal, Double costoPersona, Local local) {
+            LocalDate fechaFinal, Double costoPersona, Empresa local) {
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
@@ -102,11 +102,11 @@ public class Oferta {
         }
     }
 
-    public Local getLocal() {
+    public Empresa getLocal() {
         return local;
     }
 
-    public void setLocal(Local local) {
+    public void setLocal(Empresa local) {
         this.local = local;
     }
 }

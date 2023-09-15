@@ -3,7 +3,7 @@ package org.example.Entidades;
 import org.example.utilidades.Util;
 import org.example.validaciones.UsuarioValidacion;
 
-public class Usuario {
+public abstract class Usuario {
 
     private Integer id;
     private String documento;
@@ -83,4 +83,6 @@ public class Usuario {
             System.out.println("\u001B[31m" + error.getMessage() + "\u001B[0m");
         }
     }
+
+    public abstract Boolean registar();
 }
