@@ -3,7 +3,7 @@ package org.example.Entidades;
 import org.example.utilidades.Util;
 import org.example.validaciones.UsuarioValidacion;
 
-public abstract class Usuario {
+public class Usuario {
 
     private Integer id;
     private String documento;
@@ -84,5 +84,5 @@ public abstract class Usuario {
         }
     }
 
-    public abstract Boolean registar();
+    //public abstract Boolean registar();
 }

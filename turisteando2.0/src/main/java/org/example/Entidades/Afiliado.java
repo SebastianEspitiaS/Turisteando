@@ -11,7 +11,7 @@ public class Afiliado extends Usuario implements Ireporte, Ilegal {
     public Afiliado() {
     }
 
-    @Override
+    //@Override
     public Boolean registar() {
         return null;
     }

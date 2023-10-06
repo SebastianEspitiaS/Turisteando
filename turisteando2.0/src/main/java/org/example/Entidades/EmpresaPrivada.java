@@ -29,7 +29,7 @@ public class EmpresaPrivada extends Empresa implements Ireporte {
         }
     }
 
-    @Override
+    //@Override
     public Boolean cobrar() {
 
         return null;

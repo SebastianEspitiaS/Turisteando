@@ -1,6 +1,5 @@
 package org.example.Entidades;
 
-import org.example.Entidades.Interfaces.Ilegal;
 import org.example.Entidades.Interfaces.Ireporte;
 import org.example.validaciones.OcacionalValidacion;
 
@@ -12,7 +11,7 @@ public class Ocacional extends Usuario implements Ireporte {
     public Ocacional() {
     }
 
-    @Override
+    //@Override
     public Boolean registar() {
         return null;
     }

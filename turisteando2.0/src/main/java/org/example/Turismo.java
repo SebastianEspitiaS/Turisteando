@@ -1,21 +1,20 @@
 package org.example;
 
-import org.example.Entidades.Afiliado;
+import org.example.Controladores.ControladorUsuario;
+/*import org.example.Entidades.Afiliado;
 import org.example.Entidades.Empresa;
 import org.example.Entidades.Oferta;
 import org.example.Entidades.Reserva;
-import org.example.utilidades.Util;
+import org.example.utilidades.Util;*/
 
 import java.util.Scanner;
 
 public class Turismo {
     public static void main(String[] args) {
-        Afiliado afiliado = new Afiliado();
         Scanner lea = new Scanner(System.in);
+        ControladorUsuario controladorUsuario = new ControladorUsuario();
+        controladorUsuario.registrarUsuario("1234567890", "Sebastian Espitia Sanchez", "sebastian@gmail.com", 2);
 
-        afiliado.setNombres("jota");
-        afiliado.setValorMensualidad(-10000);
-        lea.close();
     }
 
     // private static final Scanner lea = new Scanner(System.in);

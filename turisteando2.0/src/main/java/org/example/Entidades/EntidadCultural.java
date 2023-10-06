@@ -5,8 +5,7 @@ import org.example.Entidades.Interfaces.Ireporte;
 public class EntidadCultural extends Empresa implements Ireporte {
     String mision;
 
-    public  EntidadCultural(){
-    };
+    public EntidadCultural(){}
 
     public EntidadCultural(Integer id, String nit, String nombre, Integer ubicacion, String descripcion, String mision) {
         super(id, nit, nombre, ubicacion, descripcion);
@@ -21,7 +20,7 @@ public class EntidadCultural extends Empresa implements Ireporte {
         this.mision = mision;
     }
 
-    @Override
+    //@Override
     public Boolean cobrar() {
         return null;
     }
