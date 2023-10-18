@@ -36,7 +36,7 @@
     <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-core</artifactId>
-        <version>6.1.7.Final</version> <!-- Utiliza la versión más reciente de Hibernate -->
+        <version>6.2.0.CR3</version> <!-- Utiliza la versión más reciente de Hibernate -->
     </dependency>
 
 
